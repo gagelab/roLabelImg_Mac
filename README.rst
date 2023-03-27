@@ -1,3 +1,19 @@
+To Set up on a Mac:
+
+First, set up a conda environment with the original labelImg:
+.. code::
+  conda create --name rolabelimg pip
+  conda activate rolabelimg
+  pip install labelimg
+  
+Then, download this repo, navigate into it, and run roLabelImg.py:
+.. code::
+  git clone git@github.com:gagelab/roLabelImg_Mac.git
+  cd roLabelImg_Mac
+  python roLabelImg.py
+  
+From here on out, everything else should work as documented below, from the original roLabelImg repo:
+
 roLabelImg
 ==========
 
